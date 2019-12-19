@@ -4,12 +4,40 @@ body {
     font-family: 'Sulphur Point', sans-serif;
     font-size: 16px;
     letter-spacing: .5px;
+    text-align: center;
+    font-weight: 300;
 }
     body.dark {
         background: #232323;
         color: #e8e8e8;
     }
+    .dark button {
+        padding: 0;
+    }
+    .dark button svg {
+        fill: #e8e8e8;
+        height: 90px;
+        width: 90px;
+    }
 
     body.light {
 
     }
+h1 {
+    font-weight: 300;
+    font-size: 4rem;
+}
+p {
+    font-size: 1.25rem;
+}
+.container {
+    padding: 5% 10%;
+}
+
+    .baseline-response-container {
+        margin-top: 7%;
+    }
+        .emotional-response {
+            float: left;
+            width: 25%;
+        }
