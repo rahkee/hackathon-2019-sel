@@ -7,35 +7,39 @@
         <title>SEL Exercise | Hackathon 2019</title>
 
         <link rel="stylesheet" href="styles.css" />
-        <link href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="animations.css" />
+        <link
+            href="https://fonts.googleapis.com/css?family=Sulphur+Point&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body class="dark">
         <!--Start-->
-        <div id="start">
-            start
+        <div id="start" class="transitioned show-screen">
+            <button class="btn-start">start</button>
         </div>
 
         <!--Starting self assessment-->
-        <div id="starting-self-assessment">
+        <div id="starting-self-assessment" class="transitioned">
             1st self assessment
         </div>
 
-
         <!--Animation-->
-        <div id="animation">
+        <div id="animation" class="transitioned">
             animation
         </div>
 
         <!--Ending self assessment-->
-        <div id="ending-self-assessment">
+        <div id="ending-self-assessment" class="transitioned">
             2nd self assessment
         </div>
 
         <!--More Info-->
-        <div id="more-info">
+        <div id="more-info" class="transitioned">
             more info
         </div>
 
         <script src="index.js"></script>
+        <script src="animations.js"></script>
     </body>
 </html>
