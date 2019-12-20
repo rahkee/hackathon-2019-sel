@@ -13,6 +13,8 @@ body {
     }
     .dark button {
         padding: 0;
+        background: none;
+        border: none;
     }
     .dark button svg {
         fill: #e8e8e8;
@@ -24,7 +26,7 @@ body {
 
     }
 h1 {
-    font-weight: 300;
+    font-weight: 200;
     font-size: 4rem;
 }
 p {
@@ -39,5 +41,5 @@ p {
     }
         .emotional-response {
             float: left;
-            width: 25%;
+            width: 20%;
         }
