@@ -1,9 +1,0 @@
-.transitioned {
-    transition-property: background-color, color, opacity, transform;
-    transition-duration: 2s;
-    transition-timing-function: ease-in-out;
-}
-
-.show-screen {
-    opacity: 1;
-}

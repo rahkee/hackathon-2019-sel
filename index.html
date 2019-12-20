@@ -15,15 +15,16 @@
     </head>
     <body class="dark">
         <!--Start-->
-        <div id="start" class="container transitioned">
-            <h1>start</h1>
+        <div id="start" class="container transitioned show-screen">
+            <h1 class="click-to-start">start</h1>
         </div>
 
         <!--Starting self assessment-->
         <div id="starting-self-assessment" class="container transitioned">
             <h1>How are you feeling?</h1>
+
             <div class="baseline-response-container">
-                <div class="emotional-response">
+                <div class="emotional-response er-start">
                     <button id="content">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +43,7 @@
                     <p>Content</p>
                 </div>
 
-                <div class="emotional-response">
+                <div class="emotional-response er-start">
                     <button id="unsure">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +62,7 @@
                     <p>Unsure</p>
                 </div>
 
-                <div class="emotional-response">
+                <div class="emotional-response er-start">
                     <button id="foggy">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -80,7 +81,7 @@
                     <p>Distracted</p>
                 </div>
 
-                <div class="emotional-response">
+                <div class="emotional-response er-start">
                     <button id="stressed">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -103,7 +104,7 @@
                     <p>Anxious</p>
                 </div>
 
-                <div class="emotional-response">
+                <div class="emotional-response er-start">
                     <button id="sleepy">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -126,11 +127,17 @@
 
         <!--Animation-->
         <div id="animation" class="container transitioned">
-            <img src="images/square_box_breath_TEST.gif" />
+            <video>
+                <source src="square_breath_1.mp4" type="video/mp4" />
+
+                <source src="square_breath_1.webm" type="video/webm" />
+
+                Sorry, your browser doesn't support embedded videos.
+            </video>
         </div>
 
-        <!--Ending Sefl Assessment-->
-        <div id="starting-self-assessment" class="container transitioned">
+        <!--Ending self assessment-->
+        <div id="ending-self-assessment" class="container transitioned">
             <h1>How are you feeling now?</h1>
             <div class="baseline-response-container">
                 <div class="emotional-response">
